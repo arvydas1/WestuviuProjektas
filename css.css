@@ -1,16 +1,9 @@
 * {
    background-color: #f2e1e1;
-
 }
 
+div.coupleimage {
 
-.background-image {
-    background-image: url("/images/wedding_couple.jpg");
-}
-.background-image, .bgimg2 {
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
 }
 div.name {
     color: white;
@@ -19,17 +12,27 @@ div.name {
     top: 200px;
     left: 0;
     width: 100%;
+    letter-spacing: 4px;
 }
 
 h1 {
-    font-size: 70px;
+
+    font-size: 64px!important;
+    font-family: "Raleway", sans-serif;
 
 }
 h2 {
-    font-family: "Segoe UI",Arial,sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
+    font-size: 30px;
     margin: 10px 0;
 }
+    h3 {
+        font-weight: bold;
+font-size: 30px;
+    }
+
+
 
 div.jane {
     color: black;
@@ -51,28 +54,39 @@ display: block;
 }
 
 .button:hover {
-    background-color: #3e8e41;
+    background-color: darkgrey;
+    color: black;
+
+
 }
 
 .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #000;
+    color: #fff!important;
+    display: block;
+    height: 60px;
+    width: 185px;
+
+    font-size: 18px!important;
+    margin: 0 auto;
     outline: 0;
+    border-radius: 4px;
+    border: none;
     vertical-align: middle;
-    overflow: hidden;
 
 }
 
  p {
 
-    text-align: center;
+    text-align: right;
+}
+
+div.wedding {
+    font-size: 36px;
+margin: 10px 0;
+    font-family: "Raleway", sans-serif;
+    color: #757575!important;
+
 }
 
 div.name2 {
@@ -80,13 +94,91 @@ div.name2 {
     color: white;
     text-align:center;
     vertical-align: middle;
-
+    position: absolute;
+    left: 0;
+    width: 100%;
+    letter-spacing: 4px;
 
 }
 
 div.location {
-
+    display: block;
+    margin: 0 auto;
+    width: 70%;
 
 }
 
-------
+div.time {
+    font-weight: 400;
+    margin: 10px 0;
+    float: left;
+    text-align: center!important;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 600px;
+}
+
+div.address {
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center!important;
+    right: 0px;
+    width: 70%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+div.hope {
+    font: 36px  "Raleway", sans-serif;
+    color: #000!important;
+    letter-spacing: 4px;
+
+}
+div.kindly {
+    font-size: 18px!important;
+    line-height: 2;
+    display: block;
+    color: #000!important;
+    text-align: center!important;
+    letter-spacing: 4px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.button2:hover {
+    background-color: darkgrey;
+
+}
+
+.button2 {
+
+    color: #f88078;
+
+    display: block;
+    height: 50px;
+    width: 175px;
+    font-size: 18px !important;
+    margin: 0 auto;
+    outline: 0;
+    border-radius: 4px;
+    border: none;
+    vertical-align: middle;
+    padding-bottom:1cm;
+}
+
+footer {
+    padding: 32px;
+    color: #fff!important;
+    background-color: black;
+    clear: left;
+    text-align: center;
+
+    font: 15px "Raleway", sans-serif;
+    line-height: 2;
+    display: block;
+
+
+
+
+
+}
